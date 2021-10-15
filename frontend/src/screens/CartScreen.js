@@ -6,19 +6,19 @@ import { Link } from 'react-router-dom'
 import CartItem from '../components/CartItem'
 
 //Actions
-import {addToCart, removeFromCart} from '../redux/actions/cartActions'
+import { addToCart, removeFromCart } from '../redux/actions/cartActions'
 
 const CartScreen = () => {
   const dispatch = useDispatch();
 
-  const cart = useSelector(state => state.cart);
+  const cart = useSelector((state) => state.cart);
   const { cartItems } = cart;
 
   const qtyChangeHandler = (id , qty) => {
-  dispatch(addToCart(id, qty))
+    dispatch(addToCart(id, qty))
   }
 
-  const removeHandler = (id) => {
+  const removeFromCartHandler = (id) => {
     dispatch(removeFromCart(id));
   }
 
@@ -27,13 +27,17 @@ const CartScreen = () => {
   }
 
   const getCartSubTotal = () => {
-    return cartItems.reduce((price, item) => item.price * item.qty + price, 0);
+    return cartItems
+    .reduce((price, item) => item.price * item.qty + price, 0)
+    .toFixed(2);
   }
 
   return (
+    <>
       <div className="cartscreen">
           <div className="cartscreen__left">
             <h2>Shopping Cart</h2>
+
             {cartItems.length === 0 ? (
               <div>
                   Your cart is empty <Link to="/">Go Back</Link>
@@ -44,7 +48,7 @@ const CartScreen = () => {
                 key={item.product}
                 item={item} 
                 qtyChangeHandler={qtyChangeHandler} 
-                removeFromCart={removeHandler}
+                removeHandler={removeFromCartHandler}
               />
               ))
             )}
@@ -59,8 +63,8 @@ const CartScreen = () => {
               <button>Proceed To Checkout</button>
             </div>
           </div>
-
       </div>
+    </>
   )
 }
 

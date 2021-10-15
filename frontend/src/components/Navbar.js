@@ -7,12 +7,12 @@ const Navbar = ({click}) => {
   const { cartItems } = cart;
 
   const getCartCount = () => {
-    return cartItems.reduce((qty, item) => qty + Number(item.qty), 0)
+    return cartItems.reduce((qty, item) => Number(item.qty) + qty, 0)
   }
   return (
     <nav className="navbar">
       <div className="navbar__logo">
-        <h2>MERN SHOPPING CART</h2>
+        <h2>PhotHub</h2>
       </div>
             
       <ul className="navbar__links">
@@ -20,13 +20,13 @@ const Navbar = ({click}) => {
           <Link to="/cart" className="cart__link">
             <i className="fas fa-shopping-cart"></i>
             <span>
-              Cart
-            </span>
-            <span className="cartlogo__badge">0</span>
+               Cart 
+              <span className="cartlogo__badge">{getCartCount()}</span>
+              </span>
           </Link>
         </li>
         <li>
-          <Link to="/cart">Shop</Link>
+          <Link to="/">Shop</Link>
         </li>
       </ul>
 

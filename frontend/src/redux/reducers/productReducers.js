@@ -10,12 +10,12 @@ export const getProductsReducer = (state = {products: [] }, action) => {
       case actionTypes.GET_PRODUCTS_SUCCESS:
         return {
           loading: false,
-          products: action.payload
+          products: action.payload,
         }
         case actionTypes.GET_PRODUCTS_FAIL:
         return {
           loading: false,
-          error: action.payload
+          error: action.payload,
         }
         default:
           return state;
@@ -31,16 +31,16 @@ export const getProductDetailsReducer = (state = { product: {}}, action) => {
       case actionTypes.GET_PRODUCT_DETAILS_SUCCESS:
         return {
           loading: false,
-          product: action.payload
+          product: action.payload,
         }
       case actionTypes.GET_PRODUCT_DETAILS_FAIL:
         return {
           loading: false,
-          error: action.payload
+          error: action.payload,
         }
         case actionTypes.GET_PRODUCT_DETAILS_RESET:
           return {
-            product: {}
+            product: {},
           }
           default: 
           return state;

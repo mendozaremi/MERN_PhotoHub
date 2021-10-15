@@ -1,6 +1,5 @@
 import './CartItem.css'
 import { Link } from 'react-router-dom'
-import { removeFromCart } from '../redux/actions/cartActions'
 
 const CartItem = ({item, qtyChangeHandler, removeHandler}) => {
   return (
@@ -28,8 +27,8 @@ const CartItem = ({item, qtyChangeHandler, removeHandler}) => {
       </select>
 
       <button 
-      className="cartitem__deleteBtn" 
-      onClick={() => removeHandler(item.product)}
+        className="cartitem__deleteBtn" 
+        onClick={() => removeHandler(item.product)}
       >
         <i className="fas fa-trash"></i>
       </button>
