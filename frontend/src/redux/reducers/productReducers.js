@@ -7,7 +7,7 @@ export const getProductsReducer = (state = {products: [] }, action) => {
         loading: true,
         products: []
       }
-      case actionTypes.GET_PRODUCTS_SUCESS:
+      case actionTypes.GET_PRODUCTS_SUCCESS:
         return {
           loading: false,
           products: action.payload
@@ -28,7 +28,7 @@ export const getProductDetailsReducer = (state = { product: {}}, action) => {
       return {
         loading: true,
       }
-      case actionTypes.GET_PRODUCT_DETAILS_SUCESS:
+      case actionTypes.GET_PRODUCT_DETAILS_SUCCESS:
         return {
           loading: false,
           product: action.payload

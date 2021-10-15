@@ -3,20 +3,20 @@ import { useState } from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 
-//Screens
+// SCREENS
 import HomeScreen from './screens/HomeScreen'
 import ProductScreen from './screens/ProductScreen'
 import CartScreen from './screens/CartScreen'
 
-// Components
+// COMPONENTS
 import Navbar from './components/Navbar';
 import Backdrop from './components/Backdrop';
 import SideDrawer from './components/SideDrawer';
 
-const  App = () => {
+const App = () => {
 
   const [sideToggle, setSideToggle] = useState(false);
-
+  
   return (
     <Router>
     <Navbar click={() => setSideToggle(true)}/>
