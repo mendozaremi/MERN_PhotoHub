@@ -1,7 +1,7 @@
 .product {
   width: 300px;
   padding: 1rem;
-  background: #fff;
+  background: var(--lightbeige);
   cursor: pointer;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
   margin: 8px auto;
@@ -29,6 +29,7 @@
 .info__name {
   font-size: 1rem;
   overflow: hidden;
+  padding-top: 5px;
 }
 
 .info__description {
@@ -42,8 +43,8 @@
   color: #171717;
   width: 100%;
   padding: 8px 16px;
-  background-color: #f4f4f4;
-  border: 1px solid #171717;
+  background-color: var(--beige);
+  border: 1px solid var(--dustedBlack);
   font-size: 1rem;
 }
 

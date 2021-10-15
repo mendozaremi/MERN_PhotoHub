@@ -6,7 +6,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f4f4f4;
+  background-color: var(--lightBeige);
 }
 
 img {
@@ -16,4 +16,14 @@ img {
 
 * {
   text-decoration: none;
+}
+
+:root {
+  --white: #f4f4f4;
+  --lightBeige: #E9E8E4;
+  --beige: #D1D0CA;
+  --darkBeige: #cccbcb;
+  --dustedBlack: #181818;
+  --black: #060606;
+  --offWhite: #f5f5f5;
 }
