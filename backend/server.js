@@ -14,6 +14,7 @@ app.get("/", (req, res) => {
   res.json({ message: "API running..." });
 });
 
+
 // Serve static assests if in production
 if(process.env.NODE_ENV === 'prduction') {
   // Set static folder
