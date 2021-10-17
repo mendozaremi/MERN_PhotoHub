@@ -1,4 +1,31 @@
 const products = [
+  {
+    name: "Danny Rand",
+    imageUrl:
+      "https://imgur.com/Rk63QGq",
+    description:
+      "Un thotty with nfl picks of the decade",
+    price: 5000,
+    countInStock: 1,
+  },
+  {
+    name: "Yamilios",
+    imageUrl:
+      "https://imgur.com/mv3HVLD",
+    description:
+      "Yankee fan always loses by 1",
+    price: 666,
+    countInStock: 1,
+  },
+  {
+    name: "el herbio nikolai jorge",
+    imageUrl:
+      "https://imgur.com/4EynThS",
+    description:
+      "Herb Herb herb .. that is all",
+    price: 2,
+    countInStock: 1,
+  },
     {
       name: "PlayStation 5",
       imageUrl:
