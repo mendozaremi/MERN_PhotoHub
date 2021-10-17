@@ -1,5 +1,31 @@
 const products = [
-
+  {
+    name: "Sony A7III",
+    imageUrl:
+      "https://images.unsplash.com/photo-1619089531932-0bf07dda1c02?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=764&q=80",
+    description:
+      "Apple MacBook Air 2020 is a macOS laptop with a 13.30-inch display that has a resolution of 2560x1600 pixels. It is powered by a Core i3 processor and it comes with 8GB of RAM. The Apple MacBook Air 2020 packs 256GB of SSD storage. Graphics are powered by Integrated Graphics Processor",
+    price: 1799,
+    countInStock: 5,
+  },
+  {
+    name: "Macbook Air",
+    imageUrl:
+      "https://images.unsplash.com/photo-1606741965326-cb990ae01bb2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80",
+    description:
+      "AirPods will forever change the way you use headphones. ... Driven by the custom Apple W1 chip, AirPods use optical sensors and a motion accelerometer to detect when they're in your ears. Whether you're using both AirPods or just one, the W1 chip automatically routes the audio and engages the microphone.",
+    price: 159,
+    countInStock: 50,
+  },
+  {
+    name: "Macbook Air",
+    imageUrl:
+      "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+    description:
+      "Apple MacBook Air 2020 is a macOS laptop with a 13.30-inch display that has a resolution of 2560x1600 pixels. It is powered by a Core i3 processor and it comes with 8GB of RAM. The Apple MacBook Air 2020 packs 256GB of SSD storage. Graphics are powered by Integrated Graphics Processor",
+    price: 899,
+    countInStock: 20,
+  },
     {
       name: "PlayStation 5",
       imageUrl:
