@@ -2,7 +2,7 @@ const products = [
   {
     name: "Danny Rand",
     imageUrl:
-      "https://imgur.com/Rk63QGq",
+      "https://i.imgur.com/Rk63QGq.jpg",
     description:
       "Un thotty with nfl picks of the decade",
     price: 5000,
@@ -11,7 +11,7 @@ const products = [
   {
     name: "Yamilios",
     imageUrl:
-      "https://imgur.com/mv3HVLD",
+      "https://i.imgur.com/mv3HVLD.jpg",
     description:
       "Yankee fan always loses by 1",
     price: 666,
@@ -20,7 +20,7 @@ const products = [
   {
     name: "el herbio nikolai jorge",
     imageUrl:
-      "https://imgur.com/4EynThS",
+      "https://i.imgur.com/4EynThS.jpg",
     description:
       "Herb Herb herb .. that is all",
     price: 2,
