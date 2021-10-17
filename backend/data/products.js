@@ -15,7 +15,7 @@ const products = [
     description:
       "Yankee fan always loses by 1",
     price: 666,
-    countInStock: 2,
+    countInStock: 1,
   },
   {
     name: "el herbio nikolai jorge",
