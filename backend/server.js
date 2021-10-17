@@ -10,22 +10,24 @@ const app = express();
 
 app.use(express.json())
 
-app.get("/", (req, res) => {
-  res.json({ message: "API running..." });
-});
-
-
-// Serve static assests if in production
-if(process.env.NODE_ENV === 'prduction') {
-  // Set static folder
-  app.use(express.static('frontend/build'))
-
-  app.use.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'frontend', 'build, index.html'))
-  });
-}
 
 app.use("/api/products", productRoutes)
+
+// Serve static assests if in production
+if(process.env.NODE_ENV === 'production') {
+  // Set static folder
+  // give server acces to react application
+  app.use(express.static(path.join(__dirname, '../frontend/build')))
+
+  // file we are sending
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'frontend', 'build', 'index.html'))
+  })
+} else {
+  app.get('/', (req,res) => {
+      res.send("Api Running")
+  })
+}
 
 // Port
 const PORT = process.env.PORT || 5000;
