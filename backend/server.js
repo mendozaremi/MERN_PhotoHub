@@ -16,7 +16,7 @@ app.use("/api/products", productRoutes)
 if(process.env.NODE_ENV === 'production') {
   // Set static folder
   // give server acces to react application
-  app.use(express.static(path.join(__dirname, '../frontend/build')))
+  app.use(express.static(path.join(__dirname, '/frontend/build')))
 
   // file we are sending
   app.get('*', (req, res) => {
