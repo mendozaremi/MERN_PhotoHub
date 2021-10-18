@@ -14,8 +14,7 @@ const Navbar = ({ click }) => {
     <nav className="navbar">
       <div className="navbar__logo">
         <Link to="/">
-          
-            <h2>PhotoHub</h2> <i className="fas fa-camera"></i>
+            <img src="../../img/PhotoHub.png" alt="PhotoHub Logo"/>
         </Link>
         
       </div>

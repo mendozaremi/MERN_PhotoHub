@@ -17,18 +17,13 @@
 }
 
 
-.navbar__logo h2 {
-  color: var(--black);
-  font-size: 1.4rem;
+.navbar__logo img {
+  display: block;
+  height: auto;
+  max-width: 50%;
   cursor: pointer;
-  padding: 7px;
-  border-radius: 8%;
 }
-.navbar__logo h2:hover {
-  background: var(--dustedBlack);
-  color: var(--white);
 
-}
 .navbar__links {
   display: flex;
   list-style: none;
