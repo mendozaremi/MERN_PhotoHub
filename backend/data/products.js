@@ -2,7 +2,7 @@ const products = [
   {
     name: "Sony WH-1000XM4",
     imageUrl:
-      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=688&q=80",
+      "https://images.unsplash.com/photo-1611285106648-0ce5820e679f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
     description:
       "Sony's intelligent noise-cancelling headphones with premium sound elevate your listening experience with the ability to personalize and control everything you hear. Get up to 30 hours of battery life with quick charging capabilities, enjoy an enhanced Smart Listening feature set, and carry conversations hands-free with speak-to-chat",
     price: 1799,
@@ -20,16 +20,16 @@ const products = [
   {
     name: "Sony A7III",
     imageUrl:
-      "https://images.unsplash.com/photo-1619089531932-0bf07dda1c02?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=764&q=80",
+      "https://images.unsplash.com/photo-1606986601547-a4d886b671b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
     description:
       "24.2MP back-illuminated CMOS sensor and upgraded image processor help depict sharp images. High-speed continuous shooting of up to 10fps, 4K movie recording capability",
     price: 1799,
     countInStock: 5,
   },
   {
-    name: "Macbook Air",
+    name: "Airpods",
     imageUrl:
-      "https://images.unsplash.com/photo-1606741965326-cb990ae01bb2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80",
+      "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
     description:
       "AirPods will forever change the way you use headphones. ... Driven by the custom Apple W1 chip, AirPods use optical sensors and a motion accelerometer to detect when they're in your ears. Whether you're using both AirPods or just one, the W1 chip automatically routes the audio and engages the microphone.",
     price: 159,
@@ -74,7 +74,7 @@ const products = [
     {
       name: "Amazon Alexa",
       imageUrl:
-        "https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80",
+        "https://images.unsplash.com/photo-1568910748155-01ca989dbdd6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
       description:
         "It is capable of voice interaction, music playback, making to-do lists, setting alarms, streaming podcasts, playing audiobooks, and providing weather, traffic, sports, and other real-time information, such as news. Alexa can also control several smart devices using itself as a home automation system.",
       price: 50,
