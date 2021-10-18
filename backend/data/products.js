@@ -1,10 +1,28 @@
 const products = [
   {
+    name: "Sony WH-1000XM4",
+    imageUrl:
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=688&q=80",
+    description:
+      "Sony's intelligent noise-cancelling headphones with premium sound elevate your listening experience with the ability to personalize and control everything you hear. Get up to 30 hours of battery life with quick charging capabilities, enjoy an enhanced Smart Listening feature set, and carry conversations hands-free with speak-to-chat",
+    price: 1799,
+    countInStock: 5,
+  },
+  {
+    name: "Keychron",
+    imageUrl:
+      "https://images.unsplash.com/photo-1589578228447-e1a4e481c6c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
+    description:
+      "Keychron is one of the few mechanical keyboards that features macOS media keys (F1 to F12) in a Mac layout with the same as conventional Mac systems",
+    price: 1799,
+    countInStock: 5,
+  },
+  {
     name: "Sony A7III",
     imageUrl:
       "https://images.unsplash.com/photo-1619089531932-0bf07dda1c02?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=764&q=80",
     description:
-      "Apple MacBook Air 2020 is a macOS laptop with a 13.30-inch display that has a resolution of 2560x1600 pixels. It is powered by a Core i3 processor and it comes with 8GB of RAM. The Apple MacBook Air 2020 packs 256GB of SSD storage. Graphics are powered by Integrated Graphics Processor",
+      "24.2MP back-illuminated CMOS sensor and upgraded image processor help depict sharp images. High-speed continuous shooting of up to 10fps, 4K movie recording capability",
     price: 1799,
     countInStock: 5,
   },
