@@ -17,7 +17,7 @@
 .left__info {
   margin: 1rem;
   flex: 0.4;
-  background-color: var(--lightBeige);
+  background-color: var(--fadedWhite);
   height: fit-content;
   font-size: 0.9rem;
 }

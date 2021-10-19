@@ -3,7 +3,7 @@
   padding: 1rem;
   background: var(--lightbeige);
   cursor: pointer;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
   margin: 8px auto;
   display: flex;
   flex-direction: column;
@@ -27,7 +27,9 @@
 }
 
 .info__name {
-  font-size: 1rem;
+  font-size: 1.2rem;
+  color: var(--grey);
+  font-weight: 600;
   overflow: hidden;
   padding-top: 5px;
 }
@@ -43,14 +45,14 @@
   color: #171717;
   width: 100%;
   padding: 8px 16px;
-  background-color: var(--beige);
-  border: 1px solid var(--dustedBlack);
+  background-color: var(--fadedWhite);
+  border: 0.5px solid var(--dustedBlack);
   font-size: 1rem;
 }
 
 .info__button:hover {
-  background: #171717;
-  color: #f4f4f4;
+  background: var(--grey);
+  color: var(--fadedWhite);
 }
 
 @media (max-width: 1232px) {
