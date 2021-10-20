@@ -1,7 +1,7 @@
 # MERN_PhotoHub
 MERN Fullstack E-commerce application
 
-## Application View
+## Homepage
 
 ![Alt Text](https://i.imgur.com/R9QW3xY.png)
 
@@ -11,7 +11,7 @@ The application consist of a persistent cart, styled components and backend API 
 
 ## Deployed @ --> https://tranquil-island-34614.herokuapp.com/
 
-## TechStack
+## Tech stack
 MongoDb, Express, React,js, Node,js + Redux
 
 ## Persistent Cart with real time stock availability
