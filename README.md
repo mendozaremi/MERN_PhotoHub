@@ -21,8 +21,5 @@ MongoDb, Express, React,js, Node,js + Redux
 ## Responsive Design
 ![Alt Text](https://media4.giphy.com/media/iJgXw8gGtyEmVffFTO/giphy.gif?cid=790b7611b3a875ed90b4f1629cea5e963f353bab4c1b969b&rid=giphy.gif&ct=g)
 
-## API
-API used: TMBD API
-
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
