@@ -14,7 +14,7 @@ The application consist of a persistent cart, styled components and backend API 
 ## TechStack
 MongoDb, Express, React,js, Node,js + Redux
 
-## Demo
+## Persistent Cart with real time stock availability
 ![Alt Text](https://media3.giphy.com/media/EFqIPOVcJupMtIMbeV/giphy.gif?cid=790b7611a7461910369c425749dff8e489c1dfade4703876&rid=giphy.gif&ct=g)
 
 ## Responsive Design
