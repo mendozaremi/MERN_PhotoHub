@@ -3,7 +3,7 @@ MERN Fullstack E-commerce application
 
 ## Application View
 
-(https://imgur.com/a/A9Uz9oh)
+![Alt Text](https://i.imgur.com/R9QW3xY.png)
 
 ## Description
 E-commerce site deployed on Heroku and MOngoDB Atlas cloud database. 
