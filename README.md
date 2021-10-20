@@ -1,15 +1,16 @@
 # MERN_PhotoHub
 MERN Fullstack E-commerce application
 
-## Homepage
+## Deployed @ --> https://tranquil-island-34614.herokuapp.com/
 
+
+## Homepage
 ![Alt Text](https://i.imgur.com/R9QW3xY.png)
 
 ## Description
 E-commerce site deployed on Heroku and MOngoDB Atlas cloud database. 
 The application consist of a persistent cart, styled components and backend API design.
 
-## Deployed @ --> https://tranquil-island-34614.herokuapp.com/
 
 ## Tech stack
 MongoDb, Express, React,js, Node,js + Redux
